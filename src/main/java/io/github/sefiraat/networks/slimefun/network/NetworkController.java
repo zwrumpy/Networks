@@ -35,7 +35,7 @@ public class NetworkController extends NetworkObject {
     public NetworkController(ItemGroup itemGroup, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(itemGroup, item, recipeType, recipe, NodeType.CONTROLLER);
 
-        maxNodes = new IntRangeSetting(this, "max_nodes", 10, 1500, 2200);
+        maxNodes = new IntRangeSetting(this, "max_nodes", 10, 750, 1500);
         addItemSetting(maxNodes);
 
         addItemHandler(
