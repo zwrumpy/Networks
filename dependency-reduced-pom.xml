@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.sefiraat</groupId>
   <artifactId>networks</artifactId>
-  <version>MODIFIED_1.0.7</version>
+  <version>CH 0.3</version>
   <build>
     <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
     <defaultGoal>clean package</defaultGoal>
@@ -99,7 +99,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.22</version>
+      <version>1.18.24</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
