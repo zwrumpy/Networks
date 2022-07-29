@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.sefiraat</groupId>
     <artifactId>networks</artifactId>
-    <version>CH 0.3</version>
+    <version>MODIFIED_1.1.0</version>
 
     <distributionManagement>
         <repository>
@@ -134,13 +134,13 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.17.1-R0.1-SNAPSHOT</version>
+            <version>1.19-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>b8f7dc</version>
+            <version>2c4f886</version>
             <scope>provided</scope>
         </dependency>
 
@@ -174,6 +174,12 @@
             <groupId>io.github.mooy1</groupId>
             <artifactId>InfinityExpansion</artifactId>
             <version>90e11bc</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.Sefiraat</groupId>
+            <artifactId>Netheopoiesis</artifactId>
+            <version>8d1af6c570</version>
             <scope>provided</scope>
         </dependency>
 
